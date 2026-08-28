@@ -27,7 +27,7 @@ const techBadges = [
 
 const stats = [
   { value: "4+",  label: "Projects Shipped" },
-  { value: "2+",  label: "Years Learning"   },
+  { value: "1+",  label: "Years Learning"   },
   { value: "5+",  label: "Tech Stacks"      },
   { value: "∞",   label: "Lines of Code"    },
 ];
