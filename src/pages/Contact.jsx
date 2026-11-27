@@ -22,8 +22,8 @@ const contactInfo = [
     bg: "bg-violet-50",
     border: "border-violet-100",
     label: "Email",
-    value: "yourname@email.com",
-    href: "mailto:yourname@email.com",
+    value: "lakshyasharmaktl@email.com",
+    href: "lakshyasharmaktl@email.com",
   },
   {
     icon: <FaPhone />,
@@ -31,8 +31,8 @@ const contactInfo = [
     bg: "bg-green-50",
     border: "border-green-100",
     label: "Phone",
-    value: "+91 XXXXX XXXXX",
-    href: "tel:+91XXXXXXXXXX",
+    value: "+91 74950 65307",
+    href: "tel:+917495065307",
   },
   {
     icon: <FaMapMarkerAlt />,
@@ -74,18 +74,14 @@ export default function Contact() {
       {/* ── Header ── */}
       <div className="max-w-6xl mx-auto px-4 sm:px-8 pb-8 text-center">
         <motion.div variants={itemVariants}>
-          <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-violet-50 text-violet-600 text-sm font-semibold rounded-full border border-violet-100 mb-4">
-            <HiOutlineSparkles className="animate-pulse" /> Available for Work
-          </span>
+         
           <h1 className="text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4">
             Get In{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-indigo-500">
               Touch
             </span>
           </h1>
-          <p className="text-gray-400 max-w-lg mx-auto">
-            Have a project in mind? I&apos;m a MERN Stack developer from Kaithal — let&apos;s build something great.
-          </p>
+         
         </motion.div>
       </div>
 
@@ -137,19 +133,7 @@ export default function Contact() {
             </div>
 
             {/* Availability card */}
-            <motion.div
-              animate={{ scale: [1, 1.015, 1] }}
-              transition={{ duration: 3, repeat: Infinity }}
-              className="bg-gradient-to-br from-violet-600 to-indigo-600 rounded-2xl p-5 text-white mt-2"
-            >
-              <div className="flex items-center gap-2 mb-2">
-                <span className="w-2.5 h-2.5 rounded-full bg-green-400 animate-pulse" />
-                <span className="text-sm font-bold">Currently Available</span>
-              </div>
-              <p className="text-violet-200 text-xs leading-relaxed">
-                Open to freelance, full-time, and collaborations. Based in Kaithal — open to remote too.
-              </p>
-            </motion.div>
+           
           </motion.div>
 
           {/* ── Right — Form ── */}
